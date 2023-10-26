@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::selection{
+    color:white;
+    background-color: black;
+}
+html body{
+    width: 100%;
+    height: 100%;
+
+}
+#page1
+{ 
+    min-height: 100vh;
+    position: relative;
+    width:100%;
+    padding: 10vh;
+   
+
+    
+
+    
+}
+#page1 h1{
+    font-size: 15.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+    letter-spacing: -8px;
+
+    
+    
+}
+#vedio
+{
+    height: 100vh;
+    width: 95%;
+    
+    margin-top: 1vw;
+    position:relative;
+    right: 40px;
+}
+#vedio video
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#PLAY
+{
+    height: 100px;
+    width: 100px;
+    background:  black;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    
+    opacity: 0;
+    scale: 0;
+    
+
+   
+    
+
+   
+ 
+border-radius: 50%;
+
+}
+#s1
+{
+    position: relative;
+    left: 180px;
+    z-index: 1;
+}
+#s2
+{
+    position: relative;
+    top: 250px;
+right: 1090px;
+
+z-index: 1;
+
+}
+#s3
+
+{
+    position: relative;
+    left: 400px;
+    z-index: 1;
+    
+
+}
+#nav
+{
+    height: 100px;
+    width: 100vw;
+}
+#logo
+{
+    height:87px ;
+    width: 68px;
+    color: black;
+    font-size: 25PX;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 20;
+    visibility: visible;
+
+}
+#li
+{
+    height: 30px;
+    width: 360px;
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+
+
+}
+ #a1{
+    text-decoration: none;
+    color: black;
+    border: 0;
+    overflow:visible;
+    width: 50px;
+    
+    
+   
+    
+
+}
+ #a2{
+    text-decoration: none;
+    color: black;
+    border: 0;
+    overflow:visible;
+    width: 100px;
+   
+}
+ #a3{
+    text-decoration: none;
+    color: black;
+    border: 0;
+    overflow:visible;
+    width: 60px;
+   
+}
+#li i{
+    color: black;
+}
+#navi
+{
+    height: 40px;
+   width: 100px; 
+   position: fixed;top: 20px;
+   right: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 20px;
+   color:wheat;
+   z-index: 10;
+ 
+   
+border-radius: 20%;
+
+
+}
+#navi i
+{
+    color: black;
+    padding-top: 10px;
+
+ 
+   
+
+}
+#page2
+{
+    height:100vh ;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    object-fit: cover;
+    
+
+}
+.el
+{
+    height:100% ;
+    width: 30%;
+   
+    
+
+    
+}
+.el img{
+    height: 100%;
+    width: 100%;
+    
+    
+
+   }
+   #info1
+   {
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+
+    width:290px;
+    background-color:white;
+    position: relative;
+    top: 300px;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.8;
+
+
+
+
+   }
+   #info2
+   {
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+
+    width:290px;
+    background-color:white;
+    position: relative;
+    top: 300px;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.8;
+
+
+
+
+   }
+   #info3
+   {
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+
+    width:290px;
+    background-color:white;
+    position: relative;
+    top: 300px;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.8;
+
+
+
+
+   }
+   #li #a1
+{
+    border-bottom: none;
+    
+
+}
+   
+ 
+ /* #li #a1:hover
+{
+    border-bottom: 3px solid  black;
+    transition-duration: 10s;
+  
+   
+  
+} */
+
+#b2
+{
+    width: 100;
+    height: 200px;
+   background-color: red;
+}
+#list1
+{
+    
+    height: 200px;
+    border-radius: 30px 30px 30px 30px;
+
+    width:290px;
+    background-color:white;
+    opacity: 0.8;
+    visibility: hidden;
+    position: absolute;
+    top: 1920px;
+    left: 70px;
+}
+#list2
+{
+    
+    height: 200px;
+    border-radius: 30px 30px 30px 30px;
+
+    width:290px;
+    background-color:white;
+    opacity: 0.8;
+    visibility: hidden;
+    position: absolute;
+    top: 1920px;
+    left: 580px;
+}
+#list3
+{
+    
+    height: 200px;
+    border-radius: 30px 30px 30px 30px;
+
+    width:290px;
+    background-color:white;
+    opacity: 0.8;
+    visibility: hidden;
+    position: absolute;
+    top: 1920px;
+    right: 70px;
+}
+#list1 #it1
+{
+    height: 70%;
+    width: 50%;
+    background-image: url("https://cdn.sanity.io/images/w8f1ak3c/production/d6c7e5bbcf3445fccb7e221bc5b1b9fd94d83362-5000x5000.png/DSC0032_Dexter%20Kim.png?w=1024&h=1024&auto=format");
+    background-size: cover;
+
+}
+#list1 #it2
+{
+    height: 60%;
+    width: 50%;
+    background-image: url("https://cdn.sanity.io/images/w8f1ak3c/production/6a73d4df28963d86c7f9dd49f805b8ec84774bd5-4672x7008.png/DSC0069_Dexter%20Kim%20copy.png?rect=0,515,4672,5241&fp-x=0.5&fp-y=0.44735661764705875&w=420&h=471&fit=crop&crop=focalpoint&auto=format");
+    background-size: cover;
+    position: relative;
+    left:55%;
+    bottom: 140px;
+
+}
+#list2 #it1
+{
+    height: 70%;
+    width: 50%;
+    background-image: url("https://cdn.sanity.io/images/w8f1ak3c/production/40eda3669b6a638a2a937a3f997b4f5b644662c2-6279x4186.png/DSC0055_Dexter%20Kim.png?w=420&h=280&auto=format");
+    background-size: cover;
+
+}
+#list2 #it2
+{
+    height: 60%;
+    width: 50%;
+    background-image:url("https://cdn.sanity.io/images/w8f1ak3c/production/3ab2d63c7e5ce5b1d39a1880e2a274771573ccbe-5000x5000.png/DSC0058_Dexter%20Kim.png?rect=12,478,4988,4314&fp-x=0.5012254901960784&fp-y=0.5269607843137255&w=320&h=277&fit=crop&crop=focalpoint&auto=format");
+    background-size: cover;
+    position: relative;
+    left:55%;
+    bottom: 140px;
+
+}
+#list3 #it1
+{
+    height: 70%;
+    width: 50%;
+    background-image: url("https://cdn.sanity.io/images/w8f1ak3c/production/63474079ab0c7723b75bd63b24d8bbc652349640-1408x1408.png/Cleanse%20&%20Nourish%20Hand%20Wash%20Two%20Good%20Co.png?w=320&h=320&auto=format");
+    background-size: cover;
+
+}
+#list3 #it2
+{
+    height: 60%;
+    width: 50%;
+    background-image:url("https://cdn.sanity.io/images/w8f1ak3c/production/99866b12faf44f7490e6037dc197947334ce0a72-1408x1408.png/Nourish%20&%20Soothe%20Hand%20Lotion%20Two%20Good%20Co.png?w=320&h=320&auto=format");
+    background-size: cover;
+    position: relative;
+    left:55%;
+    bottom: 140px;
+
+}
+#d1
+{
+    height: 2px ;
+    width: 0px;
+    
+    background-color:black;
+    position: relative;
+    left: 943px;
+    bottom: 20px;
+    transition-duration: 2ms;
+}
+#d2
+{
+    height: 2px ;
+    width: 0;
+    background-color:black;
+    position: relative;
+    left: 1030px;
+    bottom: 20px;
+}
+#d3
+{
+    height: 2px ;
+    width: 0;
+    background-color:black;
+    position: relative;
+    left: 1170px;
+    bottom: 20px;
+   
+}
+#sv1
+{
+    visibility: visible;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 20;
+    visibility: hidden;
+}
+#page3
+{
+    width: 100%;
+    min-height: 240vh;
+    background: white;
+    
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+    
+}
+.child
+{
+    height: 55vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+    
+}
+.child  img{
+    height: 55vh;
+    width: 40vw;
+}
+.child P{
+    position: relative;
+    left: 0PX;
+}
+
+#b2
+{height: 100px;
+    width: 100px;
+    background: palevioletred;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0;
+   
+   
+}
+.c1
+{
+    visibility: hidden;
+}
+.c2
+{
+    visibility: hidden;
+}
+.c3
+{
+    visibility: hidden;
+}
+   #line
+   {
+    height: 2px;
+width: 0;
+border-bottom: 3px solid black;
+position: relative;
+bottom: 70px;
+};
+
+#tu
+{
+    height: 400px;
+    width: 100%;
+}
+#thank
+{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    left: 40%;
+
+
+}
+#you
+{
+    
+color: black;
+font-size: 50px;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+left: 40%;
+
+}
+
