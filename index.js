@@ -183,11 +183,11 @@ info2.addEventListener("mouseenter",function(){
  document.addEventListener("scroll",function()
    {
       for(a of c1)
-      {if(window.pageYOffset>2090)
+      {if(window.pageYOffset>1600)
          {
 
             a.style.visibility="visible";
-            a.style.transform="translateY(-70px)";
+            a.style.transform="translateY(-150px)";
             a.style.transitionDuration="1s";
 
          }
@@ -200,11 +200,11 @@ info2.addEventListener("mouseenter",function(){
  document.addEventListener("scroll",function()
    {
       for(a of c2)
-      {if(window.pageYOffset>2670)
+      {if(window.pageYOffset>2000)
          {
 
             a.style.visibility="visible";
-            a.style.transform="translateY(-80px)";
+            a.style.transform="translateY(-150px)";
             a.style.transitionDuration="1s";
 
          }
@@ -221,17 +221,17 @@ let y= document.querySelector("#you");
  document.addEventListener("scroll",function()
    {
       for(a of c3)
-      {if(window.pageYOffset>3270)
+      {if(window.pageYOffset>2500)
          {
 
             a.style.visibility="visible";
-            a.style.transform="translateY(-80px)";
+            a.style.transform="translateY(-150px)";
             a.style.transitionDuration="1s";
 
          }
          
       }
-      if(window.pageYOffset>3400)
+      if(window.pageYOffset>2900)
       {
          l.style.width="100%";
          l.style.transitionDuration="3s"
@@ -240,7 +240,7 @@ let y= document.querySelector("#you");
       
       
    })
-
+   
    
 
 
